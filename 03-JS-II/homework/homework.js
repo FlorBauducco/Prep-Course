@@ -58,6 +58,18 @@ function saludo(idioma) {
   }
 }
 
+// OTRA FORMA DE HACELRO:
+// switch (idioma){
+//   case "aleman":
+//     return "Guten Tag!"
+//   case "mandarin":
+//     return "Ni Hao!"
+//   case "ingles":
+//     return "Hello!"
+//   default: //else
+//     return "Hola!";  
+// } 
+
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
   //En caso que el color recibido sea "blue", devuleve --> "This is blue"
@@ -79,6 +91,18 @@ function colors(color) {
   }
 }
 
+// switch(color){
+//   case "blue":
+//     return "This is blue";
+//   case "red":
+//     return "This is red";
+//   case "green":
+//     return "This is green";
+//   case "orange":
+//     return "This is orange";
+//   default: "Color not found";
+// }
+
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
@@ -89,6 +113,11 @@ function esDiezOCinco(numero) {
 
   return false;
 }
+//return numero === 10 || numero 5;
+
+//operador ternario:
+// condicion                     ? true : false
+// numero === 10 || numero === 5 ? true : false 
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
@@ -115,6 +144,12 @@ function esEntero(numero) {
     return false;
   }
 }
+
+// if (numero % 1 === 0) }{
+//   return true;º
+// } else {
+//   return false;
+// }
 
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
@@ -171,6 +206,8 @@ if(numero === 2){
 } return true;
 }
 
+
+
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
@@ -218,6 +255,13 @@ function doWhile(numero) {
   return numero + resultado;
 }
 
+// let contador = 01
+//  do {
+//   contador++;
+//   numero += 5;
+// } while (contador < 8)
+
+// return numero;
 
 
 // No modificar nada debajo de esta línea
